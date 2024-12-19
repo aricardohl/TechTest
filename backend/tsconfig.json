@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "rootDir": "./src",
+    "outDir": "./dist", // Specify the root directory of your source files
+    // "outDir": "./dist", // Optional: specify an output directory for compiled files
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node", // Add this line for better module resolution
+    "resolveJsonModule": true // Optional: if you need to import JSON files
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["**/*.ts"], // Include all TypeScript files
+  "exclude": ["node_modules"] // Exclude node_modules
+}
